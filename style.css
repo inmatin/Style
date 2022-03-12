@@ -1,0 +1,113 @@
+/*Author: Ishtiaque Matin CST8285*/
+
+/*tag with declaration block*/
+body {
+  background-color: saddlebrown; /*change background color*/
+  font-family: Georgia, "Times New Roman", Times, serif; /*change the font family*/
+}
+
+/*tag with declaration block*/
+nav {
+  text-align: center; /*text alingment*/
+  border-width: 5px; /*border width*/
+  border-style: groove; /*type of border*/
+  border-color: burlywood; /*border color*/
+  max-width: 75%; /*reduce the width to 75%*/
+  margin: auto; /*margin set to auto adjust*/
+  background-color: green;
+}
+
+/*tag with declaration block*/
+nav ul li {
+  display: inline; /*the list displays inline like a table*/
+  margin: auto;
+  padding: 15px; /*creating a gap between the border*/
+}
+
+/*tag with declaration block*/
+a {
+  cursor: pointer; /*change the curson to pointer*/
+  font-weight: bolder; /*change the font to bold*/
+  text-decoration: none; /*link would not be underlined*/
+  margin: auto;
+  padding: 5px;
+  border-color: black;
+  border-style: solid;
+  border-width: 2px;
+}
+
+/*tag with declaration block*/
+/*before a visit*/
+a:link {
+  color: orangered;
+  background-color: yellow;
+}
+
+/*tag with declaration block*/
+/*after a visit*/
+a:visited {
+  color: #12448f;
+  background-color: #fff8dc;
+}
+
+/*tag with declaration block*/
+/*during the visit*/
+a:hover {
+  color: white;
+  background-color: red;
+}
+
+/*tag with declaration block*/
+/*clicked and have not yet seen the new page*/
+a:active {
+  color: red;
+  background-color: yellow;
+}
+
+/*tag with declaration*/
+h1 {
+  color: #12448f;
+}
+
+/*tag with declaration*/
+h2 {
+  color: white;
+}
+
+/*tag with declaration*/
+h3 {
+  color: white;
+}
+
+/*#id with declaration block*/
+#mainsection {
+  background-color: #fff8dc;
+  padding: 20px;
+  margin: 0 22% 0 22%;
+  border-style: dotted;
+  border-color: black;
+  border-width: 2px;
+}
+
+/*tag with declaration*/
+ol ul li {
+  
+  display: block; /*removes the bullet*/
+}
+
+/*tag with declaration block*/
+footer {
+  margin-top: 50px;
+  font-size: small; /*font size to small*/
+  font-style: italic; /*switch font to italics*/
+  background-color: #00ffff;
+  border-radius: 20px; /*rounds the corners/ of an element's outer border edge*/
+  border-style: solid;
+  border-color: black;
+  border-width: 2px;
+  width: fit-content; /*resize to fit content*/
+  text-align: center; /*text to center*/
+  padding: 15px;
+}
+
+/*W3C CSS Validated*/
